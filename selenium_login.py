@@ -15,8 +15,6 @@ def set_up_browser(proxy: str):
         seleniumwire_options = {
             "proxy": struct_proxy(proxy)
         }
-        print(seleniumwire_options)
-        print(proxy_server)
 
     options.add_argument('--lang=en')
     browser = webdriver.Chrome(service=Service(executable_path='chromedriver.exe'), options=options,
