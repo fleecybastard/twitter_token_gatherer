@@ -1,0 +1,2 @@
+twitter_username:twitter_password:email_address:email_password:proxy
+twitter_username:twitter_password:email_address:email_password(mobile_proxy is specified)
